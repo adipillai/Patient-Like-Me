@@ -1,0 +1,12 @@
+pip install "sagemaker>=2.140.0" "transformers==4.26.1" "datasets[s3]==2.10.1" --upgrade
+pip install git+https://github.com/huggingface/transformers.git
+
+pip install transformers datasets[s3] sagemaker --upgrade
+pip install scikit-learn
+pip install accelerate==0.20.3
+pip install fastprogress
+pip install ollama
+ollama pull llama3
+pip install llama-index==0.10.32
+pip install langchain
+pip install langchain_community
